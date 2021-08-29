@@ -1,0 +1,39 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[  ]
+_global_script_class_icons={
+
+}
+
+[application]
+
+config/name="Water Test"
+config/icon="res://icon.png"
+
+[display]
+
+window/size/width=640
+window/size/height=480
+window/vsync/use_vsync=false
+
+[rendering]
+
+threads/thread_model=2
+quality/filters/anisotropic_filter_level=1
+quality/directional_shadow/size=512
+quality/directional_shadow/size.mobile=256
+quality/shadow_atlas/size=512
+quality/shadow_atlas/size.mobile=256
+quality/shadows/filter_mode=0
+quality/reflections/high_quality_ggx=false
+quality/subsurface_scattering/quality=0
+quality/depth/hdr=false
+environment/default_environment="res://default_env.tres"

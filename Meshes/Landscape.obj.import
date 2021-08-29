@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Landscape.obj-ab53a10c6100604b04ef9933a169d355.mesh"
+
+[deps]
+
+files=[ "res://.import/Landscape.obj-ab53a10c6100604b04ef9933a169d355.mesh" ]
+
+source_file="res://Meshes/Landscape.obj"
+dest_files=[ "res://.import/Landscape.obj-ab53a10c6100604b04ef9933a169d355.mesh", "res://.import/Landscape.obj-ab53a10c6100604b04ef9933a169d355.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true
